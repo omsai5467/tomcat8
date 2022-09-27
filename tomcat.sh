@@ -19,6 +19,9 @@ echo 'Checking for JAVA_HOME...'
 
 echo 'Downloading tomcat-8.5...'
 
+
+export JAVA_HOME = /usr/lib/jvm/java-8-openjdk-amd64
+
 if [ ! -f /etc/apache-tomcat-8*tar.gz ]
 
 then
